@@ -29,10 +29,10 @@ export const tokenStorage = {
 export async function mockLogin(payload: LoginPayload): Promise<AuthResponse> {
     await new Promise((r) => setTimeout(r, 600));
 
-    if(payload.email === 'demo@taskflow.com' && payload.password === '123456') {
+    if(payload.email === 'paulo@taskflow.com' && payload.password === '123456') {
         return {
-            token: 'mock.jwt.token',
-            user: { id: '1', email: payload.email, name: 'Demo User'},
+            token: 'IJOIWEJFIOWJEFIWJEFOIQJ102391312J31I2J41',
+            user: { id: '1', email: payload.email, name: 'Paulo'},
         };
     }
 

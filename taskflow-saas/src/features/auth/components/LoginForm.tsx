@@ -48,7 +48,7 @@ export function LoginForm({ onSubmit, isLoading = false, errorMessage }: LoginFo
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     onBlur={() => setTouched((t) => ({ ...t, email: true }))}
-                    placeholder="you@example.com"
+                    placeholder="email@example.com"
                     className="w-full rounded-lg border border-neutral-700 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-400"
                     disabled={isLoading}
                 />
@@ -73,7 +73,7 @@ export function LoginForm({ onSubmit, isLoading = false, errorMessage }: LoginFo
                 />
                 {
                     passwordError ? (
-                        <p className="text-xs text-red-400">passwordError</p>
+                        <p className="text-xs text-red-400">Insert your password here.</p>
                     ) : null}
             </div>
 

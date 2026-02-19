@@ -26,7 +26,7 @@ export default function LoginPage() {
                 </div>
 
                 <p className="mt-4 text-xs text-neutral-500">
-                    Demo: <b>demo@taskflow.com</b> / <b>123456</b>
+                    Exemple: <b>paulo@taskflow.com</b> / <b>123456</b>
                 </p>
             </div>
         </main>
